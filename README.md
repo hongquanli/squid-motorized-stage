@@ -15,6 +15,7 @@ The driver stack development is led by Ethan (Github repo: [link](https://github
 
 ## Control panel
 <img src="https://github.com/hongquanli/squid-motorized-stage/blob/main/control%20panel/control%20panel.png" width=40%>
+
 BOM of the control panel can be found in [control panel](control%20panel)
 
 ## Software
