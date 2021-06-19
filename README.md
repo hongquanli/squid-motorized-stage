@@ -7,12 +7,14 @@
 - 130 mm travel X or XY stage (cross roller bearing), with kinematic well plate holder, also used for Nautilus (Octopi/Squid-based plate reader)
 
 ## Stage controller PCB
-![image](https://user-images.githubusercontent.com/9373466/122627748-57032e80-d066-11eb-8146-f2067428a951.png)
-<img src="https://github.com/hongquanli/squid-motorized-stage/raw/main/driver%20stack/driver%20stack.png" width=50%>
+<img src="https://github.com/hongquanli/squid-motorized-stage/raw/main/driver%20stack/driver%20stack.png" width=40%>
 
-Right now we're using a custom PCB stack for controlling the stages. The microcontroller is Arduino Due (we intend to switch to teensy 4.1) and the stepper motor drivers are Trinamic TMC2209 SilentStepStick (we intend to switch to using Trinamic motion controller TMC4361 + one of the Trinamic stepper drivers so that the limit switches and encoders are interfaced by the motion controllers instead of the micontroller, which will also reduce the number of GPIOs needed from the micontroller). 
+Right now we're using a custom PCB stack for controlling the stages. The microcontroller is an Arduino Due (we intend to switch to teensy 4.1) and the stepper motor drivers are Trinamic TMC2209 SilentStepSticks (we intend to switch to using Trinamic motion controller TMC4361 + one of the Trinamic stepper drivers so that the limit switches and encoders are interfaced by the motion controllers instead of the micontroller, which will also reduce the number of GPIOs needed from the micontroller). 
 
-The driver stack development is led by Ethan (Github repo: [link](https://github.com/prakashlab/octopi-driver-board)). Currently used the PCB and PCBA fab files can be found on the squid-imaging website [www.squid-imaging.org](www.squid-imaging.org).
+The driver stack development is led by Ethan (Github repo: [link](https://github.com/prakashlab/octopi-driver-board)). Currently used the PCB and PCBA fab files can be found on the squid-imaging website [www.squid-imaging.org](www.squid-imaging.org) and in [driver stack](driver%20stack).
+
+## Control panel
+<img src="https://github.com/hongquanli/squid-motorized-stage/blob/main/control%20panel/control%20panel.png" width=40%>
 
 ## Software
 The stages can be controled with the Arduino firmware and python software we have written. 
