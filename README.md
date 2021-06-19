@@ -24,7 +24,7 @@ The stages can be controled with the Arduino firmware and python software:
 Microscope software Github repo: [link](https://github.com/hongquanli/octopi-research), simple GUI example: [link](https://github.com/hongquanli/squid-tutorials/tree/main/example_stepper_control) (we also explained how the software is written in these two short READMEs: [overview](https://github.com/hongquanli/squid-tutorials/tree/main/example_led_control), [more detailed note](https://github.com/hongquanli/squid-tutorials/tree/main/example_led_control/software)).
 
 ## References
-[1] Hongquan Li, Deepak Krishnamurthy, Ethan Li, Pranav Vyas, Nibha Akireddy, Chew Chai, Manu Prakash, "**Squid: Simplifying Quantitative Imaging Platform Development and Deployment**." BiorXiv [ [repo](https://github.com/hongquanli/octopi-research) | [preprint](https://doi.org/10.1101/2020.12.28.424613) | [website](https://squid-imaging.org)]
+[1] Hongquan Li, Deepak Krishnamurthy, Ethan Li, Pranav Vyas, Nibha Akireddy, Chew Chai, Manu Prakash, "**Squid: Simplifying Quantitative Imaging Platform Development and Deployment**." BiorXiv [ [Github](https://github.com/hongquanli/octopi-research) | [preprint](https://doi.org/10.1101/2020.12.28.424613) | [website](https://squid-imaging.org)]
 
 [2] Deepak Krishnamurthy, Hongquan Li, François Benoit du Rey, Pierre Cambournac, Adam G. Larson, Ethan Li, and Manu Prakash. "**Scale-free vertical tracking microscopy.**" Nature Methods 17, no. 10 (2020): 1040-1051. [ [Github](https://github.com/deepakkrishnamurthy/gravitymachine-research) | [paper](https://www.nature.com/articles/s41592-020-0924-7) | [website](https://gravitymachine.org) ]
 
