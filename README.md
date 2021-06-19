@@ -1,10 +1,10 @@
 # Squid motorized stages
 ![collections](collections.png)
 ## Stages
-- 13 mm travel focus stage (ball bearing), with adapters for mounting Thorlabs SM1 lens tube
-- 25 mm travel XY stage (ball bearing), with adapters for mounting glass slide or 35 mm glass bottom dish
-- 50 mm travel XY stage (linear guideway with recirculating bell bearings) for the original gravity machine
-- 130 mm travel X or XY stage (cross roller bearing), with kinematic well plate holder, also used for Nautilus (Octopi/Squid-based plate reader)
+- [13 mm travel focus stage (ball bearing)](3%20mm%20travel%20fine%20adjustment%20ball%20bearing%20stage), with adapters for mounting Thorlabs SM1 lens tube
+- [25 mm travel XY stage (ball bearing)](25%20mm%20travel%20XY%20ball%20bearing%20stage), with adapters for mounting glass slide or 35 mm glass bottom dish
+- [50 mm travel XY stage (linear guideway with recirculating bell bearings)](50%20mm%20travel%20linear%20guideway%20stage%20for%20non-cantilevered%20load), used in gravitymachine
+- [130 mm travel X or XY stage (cross roller bearing)](130%20mm%20travel%20cross%20roller%20bearing%20stage), with kinematic well plate holder. Also used for Nautilus (Octopi/Squid-based plate reader)
 
 ## Stage controller PCB
 <img src="https://github.com/hongquanli/squid-motorized-stage/raw/main/driver%20stack/driver%20stack.png" width=40%>
@@ -15,6 +15,7 @@ The driver stack development is led by Ethan (Github repo: [link](https://github
 
 ## Control panel
 <img src="https://github.com/hongquanli/squid-motorized-stage/blob/main/control%20panel/control%20panel.png" width=40%>
+BOM of the control panel can be found in [control panel](control%20panel)
 
 ## Software
 The stages can be controled with the Arduino firmware and python software we have written. 
@@ -26,4 +27,4 @@ Microscope software Github repo: [link](https://github.com/hongquanli/octopi-res
 
 [2] Deepak Krishnamurthy, Hongquan Li, François Benoit du Rey, Pierre Cambournac, Adam G. Larson, Ethan Li, and Manu Prakash. "**Scale-free vertical tracking microscopy.**" Nature Methods 17, no. 10 (2020): 1040-1051. [ [Github](https://github.com/deepakkrishnamurthy/gravitymachine-research) | [paper](https://www.nature.com/articles/s41592-020-0924-7) | [website](https://gravitymachine.org) ]
 
-[3] Janie R. Byrum, Eric Waltari, Owen Janson, Syuan-Ming Guo, Jenny Folkesson, Bryant B. Chhun, Joanna Vinden, Ivan E. Ivanov, Marcus L. Forst, Hongquan Li, Adam G. Larson, Wesley Wu1, Cristina M. Tato, Krista M. McCutcheon, Michael J. Peluso, Timothy J. Henrich, Steven G. Deeks, Manu Prakash, Bryan Greenhouse, John E. Pak, Shalin B. Mehta. "**multiSero: Open multiplex-ELISA platform for analyzing antibody responses to SARS-CoV-2 infection**." bioRxiv [ [preprint](https://doi.org/10.1101/2021.05.07.21249238) | [repo](https://github.com/czbiohub/pysero)  ]
+[3] Janie R. Byrum, Eric Waltari, Owen Janson, Syuan-Ming Guo, Jenny Folkesson, Bryant B. Chhun, Joanna Vinden, Ivan E. Ivanov, Marcus L. Forst, Hongquan Li, Adam G. Larson, Wesley Wu1, Cristina M. Tato, Krista M. McCutcheon, Michael J. Peluso, Timothy J. Henrich, Steven G. Deeks, Manu Prakash, Bryan Greenhouse, John E. Pak, Shalin B. Mehta. "**multiSero: Open multiplex-ELISA platform for analyzing antibody responses to SARS-CoV-2 infection**." bioRxiv [ [preprint](https://doi.org/10.1101/2021.05.07.21249238) | [Github](https://github.com/czbiohub/pysero) ]
