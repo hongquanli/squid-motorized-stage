@@ -18,7 +18,7 @@ The driver stack development is led by Ethan (Github repo: [link](https://github
 BOM of the control panel can be found in [control panel](control%20panel)
 
 ## Software
-The stages can be controled with the Arduino firmware and python software we have written. 
+The stages can be controled with the Arduino firmware and python software: 
 
 Microscope software Github repo: [link](https://github.com/hongquanli/octopi-research), simple GUI example: [link](https://github.com/hongquanli/squid-tutorials/tree/main/example_stepper_control) (we also explained how the software is written in these two short READMEs: [overview](https://github.com/hongquanli/squid-tutorials/tree/main/example_led_control), [more detailed note](https://github.com/hongquanli/squid-tutorials/tree/main/example_led_control/software)).
 
